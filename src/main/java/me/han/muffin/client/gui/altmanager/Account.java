@@ -88,7 +88,7 @@ public class Account {
         if (premium) {
             return password;
         } else {
-            throw new AccountException("Non-Premium accounts do not have passwords!");
+            throw new AccountException("Non-Premium accounts do not have passwords");
         }
     }
 
